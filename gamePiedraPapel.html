@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Piedra, Papel, Tijera</title>
+     <!-- <link rel="stylesheet" type="text/css" href="gamepiedrapapel.css" media="screen" /> -->
+     
+     <style type="text/css"> 
+
+     
+
+    
+    </style>
+    
+    
+</head>
+<body>
+
+    <div class="container"> 
+        <div class="puntos">
+            <p> Puntos</p>
+            <p class="tabla_puntos">Tú: <span id="jugador">  </span></p>
+            <P class="tabla_puntos">PC: <span id="pc">  </span></P>
+        </div>
+
+        <h2 class="titulo_juego">Juego Piedra, Papel o Tijera</h2>
+        <div class="juego">
+            <p>Seleccione una Opción</p>
+            <div class="juego_opciones">
+                <input type="button" class="button" value="Piedra"  id="piedra">
+                <input type="button" class="button" value="Papel"   id="papel">
+                <input type="button" class="button" value="Tijeras" id="tijeras"><br>
+            </div>
+        </div>
+        <div class="eleccion">
+            <div class="eleccionjugador"> 
+                <p> El Jugador eligió: <span id="jugadorchoice"> </span> </p>   
+
+            </div>
+
+            <div class="eleccionPC"> 
+                
+                <p> La PC Eligió: <span id="pcchoice"> </span> </p> 
+
+            </div>
+
+            <div class="resultado">
+                <p id="resultadoJuego"> </p>
+
+            </div>
+
+
+        </div>
+    </div>
+       
+     <script src="gamepiedrapapel.js"> </script>
+</body>
+</html>
